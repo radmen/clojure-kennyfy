@@ -66,17 +66,13 @@
   (let [s (apply str xs)]
     (get kenny-lang-inverted s)))
 
-(defn- ->vec
-  [xs]
-  (apply vector xs))
-
 (defn- parse-char-vec
   "Parses vector of characters. Returns pair of: decoded string and rest of vector."
   [xs]
-  (let [v (->vec xs)
+  (let [v (vec xs)
         c (kenny-seq->char (take 3 v))]
     (cond
-      (nil? c) [(first v) (->vec (next v))]
+      (nil? c) [(first v) (vec (next v))]
       :else [c (subvec v 3)])))
 
 (defn kenny-speak
