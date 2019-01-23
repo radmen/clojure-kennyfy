@@ -1,4 +1,4 @@
-(ns info.radmen.kennyfy
+(ns radmen.kennyfy
   (:require [clojure.string :as str])
   (:require [clojure.set :as set]))
 

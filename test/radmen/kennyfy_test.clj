@@ -1,6 +1,6 @@
-(ns info.radmen.kennyfy-test
+(ns radmen.kennyfy-test
   (:require [clojure.test :refer :all]
-            [info.radmen.kennyfy :refer :all]))
+            [radmen.kennyfy :refer :all]))
 
 (def lorem-ipsum "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget leo sit amet mauris dapibus congue. In semper maximus suscipit.")
 
