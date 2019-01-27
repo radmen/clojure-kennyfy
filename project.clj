@@ -1,4 +1,4 @@
-(defproject radmen.kennyfy "0.1.0"
+(defproject radmen.kennyfy "0.1.2"
   :description "Translates string to kenny-speak"
   :url "https://github.com/radmen/clojure-kennyfy"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
